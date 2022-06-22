@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+p
+{
+	font-weight: 300;
+	color: #111;
+}
+
+.banner
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(Mam.jpeg);
+	background-size: cover;
+}
+.banner .content
+{
+	max-width: 900px;
+	text-align: center;
+}
+.banner .content h2
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 5em;
+	color: #fff;
+}
+.banner .content p
+{
+	font-size: 1em;
+	color: #fff;
+}
+
+header
+{
+	position: fixed;
+	margin-top: -30px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	z-index: 10000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s
+}
+header.sticky
+{
+	background: #fff;
+	padding: 40px 100px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo
+{
+	color: #fff;
+	font-family: 'Marck Script', cursive;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+}
+header.sticky .logo
+{
+	color: #111;
+}
+header .logo span
+{
+	color: #ff0157;
+}
+header .navigation
+{
+	position: relative;
+	display: flex;
+}
+header .navigation li
+{
+	list-style: none;
+	margin-left: 30px;
+}
+header .navigation li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+}
+header.sticky .navigation li a
+{
+	color: #111;
+}
+header .navigation li a:hover
+{
+	color: #ff0157;
+}
+section 
+{
+	height: 700px;
+	background: url(Mam.jpg);
+	background-size: cover;
+	padding: 100px;
+}
+.about
+{
+	background: url(dd.jpg);
+	background-size: cover;
+}
+.row
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.row .col50
+{
+	position: relative;
+	width: 100%;
+}
+.titleText
+{
+	color: #fff;
+	font-size: 2em;
+	font-weight: 300px;
+}
+.row p
+{
+	color: #fff;
+}
+.row .col50 .imgBx
+{
+	position: relative;
+	width: 100%;
+	/*min-height: 300px;*/
+	height: 250%;
+}
+.row .col50 .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.title
+{
+	width: 100%;
+	margin-top: -60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.menu
+{
+	background: url(oo.jpg);
+	background-size: cover;
+}
+.menu .content
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-top: -5px;
+}
+.menu .content .box
+{
+	margin-top: 100px;
+	width: 300px;
+	margin: 2px;
+	border: 10px solid #fff;
+	background-color: #fff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBx
+{
+	position: relative;
+	width: 100%;
+	height: 150px;
+}
+.menu .content .box .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.menu .content .box .text
+{
+	padding: 15px 0 5px;
+	text-align: center;	
+}
+.menu .content .box .text h3
+{
+	margin-top: -10px;
+	font-weight: 400;
+	color: #111;
+}
+.btn
+{
+	font-size: 1em;
+	color: #fff;
+	background: #ff0157;
+	display: inline-block;
+	padding: 5px 5px;
+	margin-top: 65px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5px;
+}
+.btn:hover
+{
+	letter-spacing: 6px;
+}
+
+
+
+.title
+{
+	width: 100%;
+	margin-top: -60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.gallery
+{
+	background: url(ss.jpg);
+	background-size: cover;
+}
+.gallery .content
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-top: -5px;
+}
+.gallery .content .box
+{
+	margin-top: 100px;
+	width: 300px;
+	margin: 2px;
+	border: 10px solid #fff;
+	background-color: #fff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.gallery .content .box .imgBx
+{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.gallery .content .box .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.gallery .content .box .text
+{
+	padding: 15px 0 5px;
+	text-align: center;	
+}
+.gallery .content .box .text h3
+{
+	margin-top: -10px;
+	font-weight: 400;
+	color: #111;
+}
+.btn
+{
+	font-size: 1em;
+	color: #fff;
+	background: #ff0157;
+	display: inline-block;
+	padding: 5px 5px;
+	margin-top: 65px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5px;
+}
+.btn:hover
+{
+	letter-spacing: 6px;
+}
+footer{
+	background: #212121;
+	padding: 50px 20px;
+}
+footer .container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+footer .ftr h3{
+	font-size: 1.4em;
+	margin-bottom: 1.2em;
+	color: #fff;
+}
+footer .ftr p{
+	color: #fff;
+}
+footer .content 
+{
+	list-style: none;
+}
+footer .content a{
+	text-decoration: none;
+	color: #fff;
+	opacity: .6;
+	line-height: 30px;
+	transition: .3s ease opacity;
+}
+footer .content a:hover{
+	opacity: 1;
+}
+footer .ftr{
+	flex-basis: 18%;
+}
+footer .text{
+	color: #fff;
+}
